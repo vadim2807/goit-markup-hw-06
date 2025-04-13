@@ -1,0 +1,226 @@
+@media (min-width: 768px) and (max-width: 1157px) {
+  .header-address-link {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+  }
+
+  .sec-one {
+    padding-top: 112px;
+    padding-bottom: 112px;
+    max-width: 768px;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url("../images/peop-off.jpg");
+  }
+
+  @media (min-resolution: 2x) {
+    .sec-one {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url("../images/peop-off@2x.jpg");
+    }
+  }
+
+  .sec-one-title {
+    margin: 0 auto 36px;
+  }
+
+  .sec-two-list {
+    gap: 72px 24px;
+  }
+
+  .sec-two-item {
+    width: calc((100% - 24px) / 2);
+  }
+
+  .sec-three-list {
+    justify-content: center;
+    gap: 64px 24px;
+    flex-wrap: wrap;
+  }
+
+  .sec-three-item {
+    width: calc((100% - 184px - 24px) / 2);
+  }
+
+  .sec-portf-list {
+    gap: 72px 24px;
+  }
+
+  .sec-portf-item {
+    width: calc((100% - 24px) / 2);
+  }
+
+  .ftr {
+    padding: 96px 0;
+  }
+
+  .ftr-container {
+    flex-wrap: wrap;
+    gap: 72px 24px;
+  }
+
+  .ftr-link-wrap {
+    max-width: 264px;
+  }
+
+  .ftr-subs {
+    margin-left: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  /******************** header ************************/
+
+  .logo {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    margin-right: 120px; /* = 76 - 40 */
+  }
+
+  .header-menu-list {
+    display: flex;
+    gap: 40px;
+  }
+
+  .header-menu-item {
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+  }
+
+  .header-menu-link {
+    color: #2e2f42;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    position: relative;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .header-menu-link::after {
+    border-radius: 2px;
+    width: 0; /* По умолчанию полоски нет */
+    height: 4px;
+    background: #404bbf;
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    /*transition-property: width;  Анимация ширины 
+  transition-duration: 0.3s;
+  transition-timing-function: ease;*/
+    bottom: -1px;
+  }
+
+  .header-address {
+    display: block;
+    font-style: normal;
+    margin-top: 6px;
+    margin-bottom: 6px;
+  }
+
+  .header-address-link {
+    display: block;
+    font-weight: 400;
+    color: #434455;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .menu-btn {
+    display: none;
+  }
+  /******************** main section-1 ************************/
+
+  .sec-one-title {
+    font-size: 56px;
+    line-height: 1.07;
+    max-width: 496px;
+  }
+
+  /******************** main section-2 ************************/
+
+  .container {
+    max-width: 768px;
+  }
+
+  /******************** main section-3 ************************/
+
+  .sec-three-list {
+    display: flex;
+  }
+
+  .sec-three-item {
+    margin-bottom: 0;
+  }
+
+  /******************** main portf ************************/
+
+  .sec-portf-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .sec-portf-item {
+    margin-bottom: 0;
+  }
+
+  .sec-portf-item:not(:last-child) {
+    margin-bottom: 0;
+  }
+
+  /******************** ftr  ************************/
+
+  .ftr-link-container,
+  .ftr-social,
+  .ftr-subs {
+    text-align: left; /* Центрируем содержимое */
+  }
+
+  .ftr-container {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    padding-left: 108px;
+  }
+
+  .ftr-txt {
+    margin-bottom: 0;
+    min-width: 264px;
+  }
+
+  .ftr-icons {
+    margin-bottom: 0;
+  }
+
+  .ftr-input {
+    width: 264px;
+  }
+
+  .ftr-subs-form {
+    flex-direction: row;
+    gap: 24px;
+  }
+
+  /********************* modal **********************/
+
+  .modal {
+    width: 408px;
+    min-height: 584px;
+    padding: 72px 24px 24px;
+  }
+
+  /**************** modal menu ******************/
+  .menu {
+    display: none;
+  }
+}

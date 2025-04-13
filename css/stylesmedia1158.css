@@ -1,0 +1,152 @@
+@media screen and (min-width: 1158px) {
+  /******************** header ************************/
+
+  .logo {
+    margin-right: 76px; /* = 76 - 40 */
+  }
+
+  .header-address-list {
+    display: flex;
+    gap: 40px;
+  }
+
+  .header-address-link {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    font-size: 16px;
+  }
+
+  /******************** main section-1 ************************/
+
+  .sec-one {
+    padding-top: 188px;
+    padding-bottom: 188px;
+    max-width: 1440px;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url("../images/people-office.jpg");
+  }
+
+  @media (min-resolution: 2x) {
+    .sec-one {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url("../images/people-office@2x.jpg");
+    }
+  }
+
+  .sec-one-title {
+    margin: 0 auto 48px;
+  }
+
+  /******************** main section-2 ************************/
+
+  .container {
+    max-width: 1158px;
+    padding: 0 15px;
+  }
+
+  .sec-two {
+    padding: 120px 0;
+  }
+
+  .sec-two-list {
+    flex-wrap: nowrap;
+    gap: 24px;
+  }
+
+  .sec-two-item {
+    width: calc((100% - 3 * 24px) / 4);
+  }
+
+  .sec-two-item-icon {
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    width: 100%;
+    height: 112px;
+    background: #f4f4fd;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sec-two-txt {
+    font-weight: 400;
+  }
+
+  .sec-two-item-hd {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: left;
+  }
+
+  /******************** main section-3 ************************/
+
+  .sec-three {
+    padding: 120px 0;
+  }
+
+  .sec-three-list {
+    justify-content: space-between;
+    gap: 0 24px;
+    flex-wrap: nowrap;
+    padding: 0;
+  }
+
+  .sec-three-item {
+    width: calc((100% - 3 * 24px) / 4);
+  }
+
+  /******************** main portf ************************/
+
+  .sec-portf {
+    padding: 120px 0;
+  }
+
+  .sec-portf-list {
+    gap: 48px 24px;
+  }
+
+  .sec-portf-item {
+    width: calc((100% - 2 * 24px) / 3);
+  }
+
+  /******************** ftr  ************************/
+
+  .ftr {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .ftr-container {
+    flex-wrap: nowrap;
+    gap: 0;
+  }
+
+  .ftr-link-wrap {
+    margin-right: 120px;
+    width: auto;
+  }
+
+  .ftr-icons {
+    display: flex;
+  }
+
+  .ftr-subs {
+    margin-left: auto;
+  }
+
+  /********************* modal **********************/
+
+  .modal-input {
+    padding-left: 38px;
+  }
+}
