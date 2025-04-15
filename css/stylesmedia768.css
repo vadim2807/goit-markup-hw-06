@@ -64,7 +64,7 @@
 
   .ftr-container {
     flex-wrap: wrap;
-    gap: 72px 24px;
+    gap: 0 24px;
   }
 
   .ftr-link-wrap {
@@ -125,8 +125,8 @@
   .header-address {
     display: block;
     font-style: normal;
-    margin-top: 6px;
-    margin-bottom: 6px;
+    /* margin-top: 6px;
+    margin-bottom: 6px;*/
   }
 
   .header-address-link {
@@ -151,6 +151,10 @@
 
   .container {
     max-width: 768px;
+  }
+
+  .sec-two-item-hd {
+    text-align: left;
   }
 
   /******************** main section-3 ************************/
