@@ -153,7 +153,7 @@ main {
   background: transparent;
   width: 24px;
   height: 24px;
-  vertical-align: center;
+  /*vertical-align: center;*/
   margin-left: auto;
 }
 
@@ -299,7 +299,7 @@ main {
 }
 
 .sec-three-part {
-  padding: 32px 0;
+  padding: 32px 16px;
 }
 
 .sec-three-txt {
@@ -322,7 +322,7 @@ main {
 .sec-three-icons {
   display: flex;
   gap: 24px;
-  margin: 8px 16px 0;
+  margin: 8px 0 0;
   flex-direction: row;
   justify-content: center;
 }
